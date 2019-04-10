@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-
-    }
-
     /* Specifying a global properties */
     options {
     	// Specifying a global execution timeout, after which Jenkins will abort the Pipeline run
